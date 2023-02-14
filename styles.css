@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+header {
+    width: 100%;
+    display: inline-block;
+    /* height: 20vh; */
+}
+
+nav {
+    border-bottom: 1px solid grey;
+    height: 60px;
+    /* background-image: linear-gradient(90deg, grey, lightblue, violet); */
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul>li {
+    list-style: none;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 5%;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: white;
+    list-style: none;
+    justify-self: space-between;
+}
+body {
+    background: #120000; 
+    background: -webkit-linear-gradient(to right, #120000, #820007); 
+    background: linear-gradient(to right, #120000, #820007); 
+
+    /* background-image: linear-gradient(90deg, rgba(0, 128, 250,0.5), rgba(173, 216, 230,0.8), rgba(238, 129, 238, 0.5)); */
+    /* background-image: repeating-radial-gradient-gradient(rgba(0, 128, 250,0), rgba(173, 216, 230) , rgba(238, 129, 238, 0.8)); */
+    /* background-image: url(https://media0.giphy.com/media/l1KXtGiWieAhji91u/giphy.gif?cid=ecf05e47mij7rgyhv42ufveoqacxcavg0d69a42dxn2t68vf&rid=giphy.gif&ct=g); */
+    /* background-color:rgb(120,0,255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;
+    width: 100vw; */
+
+
+}
+
+/* #particle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    } */
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    position: absolute;
+    /* zoom: 80%; */
+    letter-spacing: 10px;
+    /* background: transparent; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-background-size: cover; */
+    color: rgb(172, 157, 157);
+    text-align: center;
+    /* margin-top: 3%; */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* import */
